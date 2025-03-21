@@ -1,0 +1,6 @@
+
+services:
+  conteneur1:
+    image: ubuntu
+    container_name: conteneur1
+    command: /bin/bash -c "apt-get update -y && apt-get install -y iputils-ping && tail -f /dev/null"
